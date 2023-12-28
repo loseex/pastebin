@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #191919;
+  --color-text: #191919;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+}
