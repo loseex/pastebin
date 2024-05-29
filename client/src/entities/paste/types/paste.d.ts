@@ -2,7 +2,8 @@ export interface PasteResponse {
   value: string;
 }
 
-export interface PasteRequest extends PasteResponse {
+export interface PasteRequest {
+  value: string;
   ex: number;
 }
 

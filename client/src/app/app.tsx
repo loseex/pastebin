@@ -1,10 +1,8 @@
-import { ReactElement } from "react";
+import { FC, ReactElement } from "react";
 import { withProviders } from "./providers";
 import { Routing } from "@/pages";
 
-import "@/shared/css/global.css";
-
-export const App = withProviders((): ReactElement => {
+export const App: FC = withProviders((): ReactElement => {
   return (
     <div className="w-full h-screen flex justify-center items-center">
       <div className="w-full max-w-sm p-2">

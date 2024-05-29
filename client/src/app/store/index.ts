@@ -1,5 +1,6 @@
-import { PasteAPI } from "@/entities/paste/model/paste.model";
 import { combineReducers, configureStore } from "@reduxjs/toolkit/react";
+
+import { PasteAPI } from "@/entities/paste/paste.api";
 
 const rootReducer = combineReducers({
   [PasteAPI.reducerPath]: PasteAPI.reducer,

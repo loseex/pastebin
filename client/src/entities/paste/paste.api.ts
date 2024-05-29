@@ -1,6 +1,6 @@
 import { __AppConfig__ } from "@/app/config";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { PasteRequest, PasteResponse, TokenResponse } from "../types/paste.types";
+import { PasteRequest, PasteResponse, TokenResponse } from "./types/paste";
 
 export const PasteAPI = createApi({
   reducerPath: "paste/api",

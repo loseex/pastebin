@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { PasteResponse } from "@/entities/paste/types/paste.types";
+import { PasteResponse } from "@/entities/paste/types/paste";
 
 export const PasteField: FC<PasteResponse> = ({ value }) => {
   return (

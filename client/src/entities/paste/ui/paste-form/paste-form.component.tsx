@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
-import { PasteRequest } from "@/entities/paste/types/paste.types";
-import { useCreatePasteMutation } from "@/entities/paste/model/paste.model";
+import { PasteRequest } from "@/entities/paste/types/paste";
+import { useCreatePasteMutation } from "@/entities/paste/paste.api";
 import { useNavigate } from "react-router-dom";
 
 export const PasteForm: FC = () => {
